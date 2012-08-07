@@ -10,4 +10,7 @@
 
 @implementation AlamAdd
 
+- (void) closeView{
+    
+}
 @end
