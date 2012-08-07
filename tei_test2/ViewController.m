@@ -26,6 +26,36 @@
     [sound stop];
 }
 
+- (void)loadView
+{
+    CGRect appRect = [[UIScreen mainScreen] applicationFrame];
+    contentView = [[UIView alloc] initWithFrame:appRect];
+    contentView.backgroundColor = [UIColor whiteColor];
+    
+    contentView.autoresizesSubviews = YES;
+    contentView.autoresizingMask = (UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight);
+    self.view = contentView;
+    [contentView release];
+    
+    appRect.origin = CGPointMake(0.0f, 0.0f);
+    
+    UIView *subview = [[UIView alloc] initwithframe:cGRectInset(appRect,32.0f, 32.0f)];
+    subview.backgroundColor = [UICo lightGrayColor];
+    [contentView addSubvies:subview];
+    [subview release];
+    
+    UIView *subview = [[UIView alloc] initwithframe:cGRectInset(appRect,64.0f, 64.0f)];
+    subview.backgroundColor = [UICo lightGrayColor];
+    [contentView addSubvies:subview];
+    [subview release];
+
+    UIView *subview = [[UIView alloc] initwithframe:cGRectInset(appRect,96.0f, 96.0f)];
+    subview.backgroundColor = [UICo lightGrayColor];
+    [contentView addSubvies:subview];
+    [subview release];
+
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
