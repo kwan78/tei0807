@@ -20,11 +20,10 @@
 		8B3E04B715CBC79F00C8B9AD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3E04B615CBC79F00C8B9AD /* SenTestingKit.framework */; };
 		8B3E04B815CBC79F00C8B9AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3E049815CBC79E00C8B9AD /* UIKit.framework */; };
 		8B3E04B915CBC79F00C8B9AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3E049A15CBC79E00C8B9AD /* Foundation.framework */; };
-		8B3E04C115CBC79F00C8B9AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B3E04BF15CBC79F00C8B9AD /* InfoPlist.strings */; };
-		8B3E04C415CBC79F00C8B9AD /* tei_test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3E04C315CBC79F00C8B9AD /* tei_test2Tests.m */; };
 		8B3E04CE15CBC7C900C8B9AD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3E04CD15CBC7C900C8B9AD /* Default.png */; };
 		8B3E04D015CBC7D300C8B9AD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3E04CF15CBC7D300C8B9AD /* AVFoundation.framework */; };
 		8BA62B1415D0A46000C43496 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA62B1315D0A46000C43496 /* Default@2x.png */; };
+		8BA646E115D0E1DC0020F45E /* AlamAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA646E015D0E1DC0020F45E /* AlamAdd.m */; };
 		8BE4E78315D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4E78215D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -57,13 +56,11 @@
 		8B3E04AE15CBC79F00C8B9AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8B3E04B515CBC79F00C8B9AD /* tei_test2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tei_test2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3E04B615CBC79F00C8B9AD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8B3E04BE15CBC79F00C8B9AD /* tei_test2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tei_test2Tests-Info.plist"; sourceTree = "<group>"; };
-		8B3E04C015CBC79F00C8B9AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8B3E04C215CBC79F00C8B9AD /* tei_test2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tei_test2Tests.h; sourceTree = "<group>"; };
-		8B3E04C315CBC79F00C8B9AD /* tei_test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tei_test2Tests.m; sourceTree = "<group>"; };
 		8B3E04CD15CBC7C900C8B9AD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8B3E04CF15CBC7D300C8B9AD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		8BA62B1315D0A46000C43496 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8BA646DF15D0E1DC0020F45E /* AlamAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlamAdd.h; path = ../AlamAdd.h; sourceTree = "<group>"; };
+		8BA646E015D0E1DC0020F45E /* AlamAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlamAdd.m; path = ../AlamAdd.m; sourceTree = "<group>"; };
 		8BE4E78215D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Westlife - 01 - You Raise Me Up - 320k.mp3"; path = "../../../Downloads/Westlife - 01 - You Raise Me Up - 320k.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,7 +97,6 @@
 				8B3BA71715CFB4A70087F2A8 /* icon.png */,
 				8B3E04CD15CBC7C900C8B9AD /* Default.png */,
 				8B3E049E15CBC79E00C8B9AD /* tei_test2 */,
-				8B3E04BC15CBC79F00C8B9AD /* tei_test2Tests */,
 				8B3E049715CBC79E00C8B9AD /* Frameworks */,
 				8B3E049515CBC79E00C8B9AD /* Products */,
 			);
@@ -130,6 +126,8 @@
 		8B3E049E15CBC79E00C8B9AD /* tei_test2 */ = {
 			isa = PBXGroup;
 			children = (
+				8BA646DF15D0E1DC0020F45E /* AlamAdd.h */,
+				8BA646E015D0E1DC0020F45E /* AlamAdd.m */,
 				8B3E04A715CBC79F00C8B9AD /* AppDelegate.h */,
 				8B3E04A815CBC79F00C8B9AD /* AppDelegate.m */,
 				8B3E04AA15CBC79F00C8B9AD /* MainStoryboard.storyboard */,
@@ -149,25 +147,6 @@
 				8B3E04A115CBC79F00C8B9AD /* InfoPlist.strings */,
 				8B3E04A415CBC79F00C8B9AD /* main.m */,
 				8B3E04A615CBC79F00C8B9AD /* tei_test2-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8B3E04BC15CBC79F00C8B9AD /* tei_test2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				8B3E04C215CBC79F00C8B9AD /* tei_test2Tests.h */,
-				8B3E04C315CBC79F00C8B9AD /* tei_test2Tests.m */,
-				8B3E04BD15CBC79F00C8B9AD /* Supporting Files */,
-			);
-			path = tei_test2Tests;
-			sourceTree = "<group>";
-		};
-		8B3E04BD15CBC79F00C8B9AD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B3E04BE15CBC79F00C8B9AD /* tei_test2Tests-Info.plist */,
-				8B3E04BF15CBC79F00C8B9AD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -256,7 +235,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3E04C115CBC79F00C8B9AD /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +265,7 @@
 				8B3E04A915CBC79F00C8B9AD /* AppDelegate.m in Sources */,
 				8B3E04AF15CBC79F00C8B9AD /* ViewController.m in Sources */,
 				8B3BA71515CF9DF30087F2A8 /* test.m in Sources */,
+				8BA646E115D0E1DC0020F45E /* AlamAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +273,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3E04C415CBC79F00C8B9AD /* tei_test2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,14 +303,6 @@
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
-		8B3E04BF15CBC79F00C8B9AD /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B3E04C015CBC79F00C8B9AD /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -359,7 +329,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 			};
@@ -381,7 +351,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -392,11 +362,13 @@
 		8B3E04C815CBC79F00C8B9AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JeongGwan Lee (HPYZ6SS7C2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tei_test2/tei_test2-Prefix.pch";
 				INFOPLIST_FILE = "tei_test2/tei_test2-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DD244205-E03E-49DF-8D24-A70A654E8886";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,11 +377,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JeongGwan Lee";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tei_test2/tei_test2-Prefix.pch";
 				INFOPLIST_FILE = "tei_test2/tei_test2-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FFC30E69-53DC-4679-8794-F28A956439BE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -464,7 +438,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -476,11 +450,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JeongGwan Lee";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tei_test2/tei_test2-Prefix.pch";
 				INFOPLIST_FILE = "tei_test2/tei_test2-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FFC30E69-53DC-4679-8794-F28A956439BE";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Distribution;
@@ -518,7 +494,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -530,11 +506,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JeongGwan Lee (HPYZ6SS7C2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "tei_test2/tei_test2-Prefix.pch";
 				INFOPLIST_FILE = "tei_test2/tei_test2-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DD244205-E03E-49DF-8D24-A70A654E8886";
 				WRAPPER_EXTENSION = app;
 			};
 			name = AdHoc;
