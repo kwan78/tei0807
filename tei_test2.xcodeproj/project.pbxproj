@@ -16,6 +16,7 @@
 		8B3E04A515CBC79F00C8B9AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3E04A415CBC79F00C8B9AD /* main.m */; };
 		8B3E04A915CBC79F00C8B9AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3E04A815CBC79F00C8B9AD /* AppDelegate.m */; };
 		8B3E04AC15CBC79F00C8B9AD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3E04AA15CBC79F00C8B9AD /* MainStoryboard.storyboard */; };
+		8B3E04AF15CBC79F00C8B9AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3E04AE15CBC79F00C8B9AD /* ViewController.m */; };
 		8B3E04B715CBC79F00C8B9AD /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3E04B615CBC79F00C8B9AD /* SenTestingKit.framework */; };
 		8B3E04B815CBC79F00C8B9AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3E049815CBC79E00C8B9AD /* UIKit.framework */; };
 		8B3E04B915CBC79F00C8B9AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3E049A15CBC79E00C8B9AD /* Foundation.framework */; };
@@ -23,8 +24,6 @@
 		8B3E04D015CBC7D300C8B9AD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3E04CF15CBC7D300C8B9AD /* AVFoundation.framework */; };
 		8BA62B1415D0A46000C43496 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA62B1315D0A46000C43496 /* Default@2x.png */; };
 		8BA646E115D0E1DC0020F45E /* AlamAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA646E015D0E1DC0020F45E /* AlamAdd.m */; };
-		8BB8630015D35B0E000F2BA8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB862FE15D35B0E000F2BA8 /* ViewController.m */; };
-		8BB8630115D35B0E000F2BA8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB862FF15D35B0E000F2BA8 /* ViewController.xib */; };
 		8BE4E78315D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4E78215D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +52,8 @@
 		8B3E04A715CBC79F00C8B9AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B3E04A815CBC79F00C8B9AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8B3E04AB15CBC79F00C8B9AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8B3E04AD15CBC79F00C8B9AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B3E04AE15CBC79F00C8B9AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8B3E04B515CBC79F00C8B9AD /* tei_test2Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tei_test2Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3E04B615CBC79F00C8B9AD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8B3E04CD15CBC7C900C8B9AD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -60,9 +61,6 @@
 		8BA62B1315D0A46000C43496 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8BA646DF15D0E1DC0020F45E /* AlamAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlamAdd.h; path = ../AlamAdd.h; sourceTree = "<group>"; };
 		8BA646E015D0E1DC0020F45E /* AlamAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlamAdd.m; path = ../AlamAdd.m; sourceTree = "<group>"; };
-		8BB862FD15D35B0E000F2BA8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8BB862FE15D35B0E000F2BA8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8BB862FF15D35B0E000F2BA8 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		8BE4E78215D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Westlife - 01 - You Raise Me Up - 320k.mp3"; path = "../../../Downloads/Westlife - 01 - You Raise Me Up - 320k.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,10 +130,9 @@
 				8BA646E015D0E1DC0020F45E /* AlamAdd.m */,
 				8B3E04A715CBC79F00C8B9AD /* AppDelegate.h */,
 				8B3E04A815CBC79F00C8B9AD /* AppDelegate.m */,
-				8BB862FD15D35B0E000F2BA8 /* ViewController.h */,
-				8BB862FE15D35B0E000F2BA8 /* ViewController.m */,
-				8BB862FF15D35B0E000F2BA8 /* ViewController.xib */,
 				8B3E04AA15CBC79F00C8B9AD /* MainStoryboard.storyboard */,
+				8B3E04AD15CBC79F00C8B9AD /* ViewController.h */,
+				8B3E04AE15CBC79F00C8B9AD /* ViewController.m */,
 				8B3E049F15CBC79F00C8B9AD /* Supporting Files */,
 				8B3BA71315CF9DF30087F2A8 /* test.h */,
 				8B3BA71415CF9DF30087F2A8 /* test.m */,
@@ -231,7 +228,6 @@
 				8B3BA71815CFB4A70087F2A8 /* icon.png in Resources */,
 				8BA62B1415D0A46000C43496 /* Default@2x.png in Resources */,
 				8BE4E78315D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 in Resources */,
-				8BB8630115D35B0E000F2BA8 /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +263,9 @@
 			files = (
 				8B3E04A515CBC79F00C8B9AD /* main.m in Sources */,
 				8B3E04A915CBC79F00C8B9AD /* AppDelegate.m in Sources */,
+				8B3E04AF15CBC79F00C8B9AD /* ViewController.m in Sources */,
 				8B3BA71515CF9DF30087F2A8 /* test.m in Sources */,
 				8BA646E115D0E1DC0020F45E /* AlamAdd.m in Sources */,
-				8BB8630015D35B0E000F2BA8 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
