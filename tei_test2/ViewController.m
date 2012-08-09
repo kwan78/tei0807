@@ -2,7 +2,7 @@
 //  ViewController.m
 //  tei_test2
 //
-//  Created by akaon on 12. 8. 3..
+//  Created by akaon on 12. 8. 9..
 //  Copyright (c) 2012년 akaon. All rights reserved.
 //
 
@@ -14,33 +14,31 @@
 
 @implementation ViewController
 
-- (IBAction)ping1{
-    NSString *path=[[NSBundle mainBundle] pathForResource:@"Westlife - 01 - You Raise Me Up - 320k" ofType:@"mp3"];
-    sound=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-    [sound play];
-}
-
-- (IBAction)ping2{
-    NSString *path=[[NSBundle mainBundle] pathForResource:@"Westlife - 01 - You Raise Me Up - 320k" ofType:@"mp3"];
-    sound=[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:path] error:NULL];
-    [sound stop];
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 @end
