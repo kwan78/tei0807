@@ -26,6 +26,12 @@
     [sound stop];
 }
 
+- (IBAction)how1{
+    how *view1 = [[how alloc] initWithNibName:@"how" bundle:nil];
+    view1.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentModalViewController:view1 animated:YES];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

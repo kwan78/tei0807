@@ -24,6 +24,8 @@
 		8B3E04D015CBC7D300C8B9AD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3E04CF15CBC7D300C8B9AD /* AVFoundation.framework */; };
 		8BA62B1415D0A46000C43496 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA62B1315D0A46000C43496 /* Default@2x.png */; };
 		8BA646E115D0E1DC0020F45E /* AlamAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA646E015D0E1DC0020F45E /* AlamAdd.m */; };
+		8BB8630915D35D4C000F2BA8 /* how.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8630715D35D4C000F2BA8 /* how.m */; };
+		8BB8630A15D35D4C000F2BA8 /* how.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB8630815D35D4C000F2BA8 /* how.xib */; };
 		8BE4E78315D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8BE4E78215D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +63,9 @@
 		8BA62B1315D0A46000C43496 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8BA646DF15D0E1DC0020F45E /* AlamAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlamAdd.h; path = ../AlamAdd.h; sourceTree = "<group>"; };
 		8BA646E015D0E1DC0020F45E /* AlamAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlamAdd.m; path = ../AlamAdd.m; sourceTree = "<group>"; };
+		8BB8630615D35D4C000F2BA8 /* how.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = how.h; sourceTree = "<group>"; };
+		8BB8630715D35D4C000F2BA8 /* how.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = how.m; sourceTree = "<group>"; };
+		8BB8630815D35D4C000F2BA8 /* how.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = how.xib; sourceTree = "<group>"; };
 		8BE4E78215D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Westlife - 01 - You Raise Me Up - 320k.mp3"; path = "../../../Downloads/Westlife - 01 - You Raise Me Up - 320k.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,6 +133,9 @@
 			children = (
 				8BA646DF15D0E1DC0020F45E /* AlamAdd.h */,
 				8BA646E015D0E1DC0020F45E /* AlamAdd.m */,
+				8BB8630615D35D4C000F2BA8 /* how.h */,
+				8BB8630715D35D4C000F2BA8 /* how.m */,
+				8BB8630815D35D4C000F2BA8 /* how.xib */,
 				8B3E04A715CBC79F00C8B9AD /* AppDelegate.h */,
 				8B3E04A815CBC79F00C8B9AD /* AppDelegate.m */,
 				8B3E04AA15CBC79F00C8B9AD /* MainStoryboard.storyboard */,
@@ -228,6 +236,7 @@
 				8B3BA71815CFB4A70087F2A8 /* icon.png in Resources */,
 				8BA62B1415D0A46000C43496 /* Default@2x.png in Resources */,
 				8BE4E78315D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 in Resources */,
+				8BB8630A15D35D4C000F2BA8 /* how.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +275,7 @@
 				8B3E04AF15CBC79F00C8B9AD /* ViewController.m in Sources */,
 				8B3BA71515CF9DF30087F2A8 /* test.m in Sources */,
 				8BA646E115D0E1DC0020F45E /* AlamAdd.m in Sources */,
+				8BB8630915D35D4C000F2BA8 /* how.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

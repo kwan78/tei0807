@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import <AVFoundation/AVFoundation.h>
+#import "how.h"
 
 @interface ViewController : UIViewController <AVAudioPlayerDelegate>
 {
@@ -16,5 +17,8 @@
 }
 
 -(IBAction)ping1;
+
+-(IBAction)how1;
+
 @end
 
