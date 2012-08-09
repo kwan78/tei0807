@@ -22,6 +22,18 @@
 		8B3E04B915CBC79F00C8B9AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3E049A15CBC79E00C8B9AD /* Foundation.framework */; };
 		8B3E04CE15CBC7C900C8B9AD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B3E04CD15CBC7C900C8B9AD /* Default.png */; };
 		8B3E04D015CBC7D300C8B9AD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3E04CF15CBC7D300C8B9AD /* AVFoundation.framework */; };
+		8B8A9E7815D38194002E5F82 /* bycleme.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A9E7715D38194002E5F82 /* bycleme.png */; };
+		8B8A9E7B15D3831C002E5F82 /* South Korea.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A9E7A15D3831C002E5F82 /* South Korea.png */; };
+		8B8A9E7D15D38328002E5F82 /* USA.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A9E7C15D38328002E5F82 /* USA.png */; };
+		8B8A9E7F15D384B0002E5F82 /* DSC_0029.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A9E7E15D384B0002E5F82 /* DSC_0029.JPG */; };
+		8B8A9E8915D391FE002E5F82 /* Strawberry.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A9E8815D391FD002E5F82 /* Strawberry.png */; };
+		8B8A9E8E15D3921A002E5F82 /* Green Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A9E8A15D3921A002E5F82 /* Green Apple.png */; };
+		8B8A9E8F15D3921A002E5F82 /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A9E8B15D3921A002E5F82 /* Orange.png */; };
+		8B8A9E9015D3921A002E5F82 /* Pear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A9E8C15D3921A002E5F82 /* Pear.png */; };
+		8B8A9E9115D3921A002E5F82 /* Red Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A9E8D15D3921A002E5F82 /* Red Apple.png */; };
+		8B8A9E9515D3AF30002E5F82 /* googlemap.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8A9E9315D3AF30002E5F82 /* googlemap.m */; };
+		8B8A9E9615D3AF30002E5F82 /* googlemap.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8A9E9415D3AF30002E5F82 /* googlemap.xib */; };
+		8B8A9E9915D3B1D0002E5F82 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8A9E9815D3B1D0002E5F82 /* MapKit.framework */; };
 		8BA62B1415D0A46000C43496 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA62B1315D0A46000C43496 /* Default@2x.png */; };
 		8BA646E115D0E1DC0020F45E /* AlamAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA646E015D0E1DC0020F45E /* AlamAdd.m */; };
 		8BB8630915D35D4C000F2BA8 /* how.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8630715D35D4C000F2BA8 /* how.m */; };
@@ -60,6 +72,19 @@
 		8B3E04B615CBC79F00C8B9AD /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		8B3E04CD15CBC7C900C8B9AD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8B3E04CF15CBC7D300C8B9AD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8B8A9E7715D38194002E5F82 /* bycleme.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = bycleme.png; path = ../../../Downloads/bycleme.png; sourceTree = "<group>"; };
+		8B8A9E7A15D3831C002E5F82 /* South Korea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "South Korea.png"; path = "/Library/Application Support/Apple/iChat Icons/Flags/South Korea.png"; sourceTree = "<absolute>"; };
+		8B8A9E7C15D38328002E5F82 /* USA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = USA.png; path = "/Library/Application Support/Apple/iChat Icons/Flags/USA.png"; sourceTree = "<absolute>"; };
+		8B8A9E7E15D384B0002E5F82 /* DSC_0029.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = DSC_0029.JPG; path = ../../../Downloads/DSC_0029.JPG; sourceTree = "<group>"; };
+		8B8A9E8815D391FD002E5F82 /* Strawberry.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = Strawberry.png; path = ../Strawberry.png; sourceTree = "<group>"; };
+		8B8A9E8A15D3921A002E5F82 /* Green Apple.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "Green Apple.png"; path = "../Green Apple.png"; sourceTree = "<group>"; };
+		8B8A9E8B15D3921A002E5F82 /* Orange.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = Orange.png; path = ../Orange.png; sourceTree = "<group>"; };
+		8B8A9E8C15D3921A002E5F82 /* Pear.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = Pear.png; path = ../Pear.png; sourceTree = "<group>"; };
+		8B8A9E8D15D3921A002E5F82 /* Red Apple.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = "Red Apple.png"; path = "../Red Apple.png"; sourceTree = "<group>"; };
+		8B8A9E9215D3AF30002E5F82 /* googlemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = googlemap.h; sourceTree = "<group>"; };
+		8B8A9E9315D3AF30002E5F82 /* googlemap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = googlemap.m; sourceTree = "<group>"; };
+		8B8A9E9415D3AF30002E5F82 /* googlemap.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = googlemap.xib; sourceTree = "<group>"; };
+		8B8A9E9815D3B1D0002E5F82 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		8BA62B1315D0A46000C43496 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8BA646DF15D0E1DC0020F45E /* AlamAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlamAdd.h; path = ../AlamAdd.h; sourceTree = "<group>"; };
 		8BA646E015D0E1DC0020F45E /* AlamAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlamAdd.m; path = ../AlamAdd.m; sourceTree = "<group>"; };
@@ -74,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8A9E9915D3B1D0002E5F82 /* MapKit.framework in Frameworks */,
 				8B3E04D015CBC7D300C8B9AD /* AVFoundation.framework in Frameworks */,
 				8B3E049915CBC79E00C8B9AD /* UIKit.framework in Frameworks */,
 				8B3E049B15CBC79E00C8B9AD /* Foundation.framework in Frameworks */,
@@ -97,10 +123,8 @@
 		8B3E048915CBC79E00C8B9AD = {
 			isa = PBXGroup;
 			children = (
-				8BE4E78215D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 */,
-				8BA62B1315D0A46000C43496 /* Default@2x.png */,
-				8B3BA71715CFB4A70087F2A8 /* icon.png */,
-				8B3E04CD15CBC7C900C8B9AD /* Default.png */,
+				8B8A9E9815D3B1D0002E5F82 /* MapKit.framework */,
+				8B8A9E9715D3B18B002E5F82 /* Resources */,
 				8B3E049E15CBC79E00C8B9AD /* tei_test2 */,
 				8B3E049715CBC79E00C8B9AD /* Frameworks */,
 				8B3E049515CBC79E00C8B9AD /* Products */,
@@ -141,6 +165,9 @@
 				8B3E04AA15CBC79F00C8B9AD /* MainStoryboard.storyboard */,
 				8B3E04AD15CBC79F00C8B9AD /* ViewController.h */,
 				8B3E04AE15CBC79F00C8B9AD /* ViewController.m */,
+				8B8A9E9215D3AF30002E5F82 /* googlemap.h */,
+				8B8A9E9315D3AF30002E5F82 /* googlemap.m */,
+				8B8A9E9415D3AF30002E5F82 /* googlemap.xib */,
 				8B3E049F15CBC79F00C8B9AD /* Supporting Files */,
 				8B3BA71315CF9DF30087F2A8 /* test.h */,
 				8B3BA71415CF9DF30087F2A8 /* test.m */,
@@ -157,6 +184,26 @@
 				8B3E04A615CBC79F00C8B9AD /* tei_test2-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B8A9E9715D3B18B002E5F82 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B8A9E7715D38194002E5F82 /* bycleme.png */,
+				8BE4E78215D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 */,
+				8BA62B1315D0A46000C43496 /* Default@2x.png */,
+				8B8A9E7A15D3831C002E5F82 /* South Korea.png */,
+				8B8A9E7E15D384B0002E5F82 /* DSC_0029.JPG */,
+				8B8A9E8A15D3921A002E5F82 /* Green Apple.png */,
+				8B8A9E8B15D3921A002E5F82 /* Orange.png */,
+				8B8A9E8C15D3921A002E5F82 /* Pear.png */,
+				8B8A9E8D15D3921A002E5F82 /* Red Apple.png */,
+				8B8A9E7C15D38328002E5F82 /* USA.png */,
+				8B8A9E8815D391FD002E5F82 /* Strawberry.png */,
+				8B3BA71715CFB4A70087F2A8 /* icon.png */,
+				8B3E04CD15CBC7C900C8B9AD /* Default.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +284,16 @@
 				8BA62B1415D0A46000C43496 /* Default@2x.png in Resources */,
 				8BE4E78315D0AB1600A0CACC /* Westlife - 01 - You Raise Me Up - 320k.mp3 in Resources */,
 				8BB8630A15D35D4C000F2BA8 /* how.xib in Resources */,
+				8B8A9E7815D38194002E5F82 /* bycleme.png in Resources */,
+				8B8A9E7B15D3831C002E5F82 /* South Korea.png in Resources */,
+				8B8A9E7D15D38328002E5F82 /* USA.png in Resources */,
+				8B8A9E7F15D384B0002E5F82 /* DSC_0029.JPG in Resources */,
+				8B8A9E8915D391FE002E5F82 /* Strawberry.png in Resources */,
+				8B8A9E8E15D3921A002E5F82 /* Green Apple.png in Resources */,
+				8B8A9E8F15D3921A002E5F82 /* Orange.png in Resources */,
+				8B8A9E9015D3921A002E5F82 /* Pear.png in Resources */,
+				8B8A9E9115D3921A002E5F82 /* Red Apple.png in Resources */,
+				8B8A9E9615D3AF30002E5F82 /* googlemap.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +333,7 @@
 				8B3BA71515CF9DF30087F2A8 /* test.m in Sources */,
 				8BA646E115D0E1DC0020F45E /* AlamAdd.m in Sources */,
 				8BB8630915D35D4C000F2BA8 /* how.m in Sources */,
+				8B8A9E9515D3AF30002E5F82 /* googlemap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

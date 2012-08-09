@@ -32,10 +32,29 @@
     [self presentModalViewController:view1 animated:YES];
 }
 
+- (IBAction)main1{
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+- (IBAction)webgo{
+    NSString *urlString = [NSString stringWithFormat:@"http://m.naver.com"];
+    NSURL *url = [NSURL URLWithString:urlString];
+    [[UIApplication sharedApplication] openURL:url];
+}
+
+- (IBAction)googlemap1{
+    googlemap *view2 = [[googlemap alloc] initWithNibName:@"googlemap" bundle:nil];
+    view2.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentModalViewController:view2 animated:NO];
+    //[self presentViewController:view1 animated:NO];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    [main2 loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://m.naver.com"]]];
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)viewDidUnload

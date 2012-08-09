@@ -10,15 +10,23 @@
 
 #import <AVFoundation/AVFoundation.h>
 #import "how.h"
+#import "googlemap.h"
 
 @interface ViewController : UIViewController <AVAudioPlayerDelegate>
 {
     AVAudioPlayer *sound;
+    
+    IBOutlet UIWebView *main2;
 }
 
 -(IBAction)ping1;
 
 -(IBAction)how1;
+
+-(IBAction)webgo;
+
+-(IBAction)googlemap1;
+
 
 @end
 
