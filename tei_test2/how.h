@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
 
 @interface how : UIViewController {
     
 }
 
 - (IBAction) main1;
+
+- (IBAction)sendmail;
 
 @end

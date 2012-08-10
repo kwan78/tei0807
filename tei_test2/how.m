@@ -27,6 +27,28 @@
     return self;
 }
 
+-(IBAction)sendmail
+{
+    MFMailComposeViewController *mailsome=[[MFMailComposeViewController alloc] init];
+    mailsome.mailComposeDelegate=self;
+    if ([MFMailComposeViewController canSendMail]){
+        
+        [mailsome setToRecipients:[NSArray arrayWithObjects:@"tei_tokyo@naver.com",nil]];
+        [mailsome setSubject:@"제목 입력"];
+        [mailsome setMessageBody:@"내용 입력" isHTML:NO];
+        [self presentModalViewController:mailsome animated:YES];
+        
+    }
+}
+-(void) mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
+    [self dismissModalViewControllerAnimated:YES];
+    if(result == MFMailComposeResultFailed){
+        UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"Can not send mail" message:@"Sorry" delegate:self cancelButtonTitle:@"Okey" otherButtonTitles:nil];
+        
+        [alert show];
+        //[alert release];
+    }
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
